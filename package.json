@@ -1,0 +1,45 @@
+{
+  "name": "dealgraph",
+  "private": true,
+  "version": "0.5.1",
+  "type": "module",
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5174 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "test:hosted": "node --experimental-strip-types --test tests/*.test.mjs",
+    "test:graph": "node scripts/check-graph-render.mjs",
+    "test": "npm run test:hosted && npm run test:graph",
+    "test:workerd": "npm run build && wrangler deploy --dry-run --outdir .wrangler/test-bundle && node scripts/check-workerd.mjs",
+    "lint": "eslint .",
+    "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
+    "deploy": "npm run build && wrangler deploy",
+    "deploy:check": "npm run build && wrangler deploy --dry-run"
+  },
+  "dependencies": {
+    "html-to-image": "^1.11.13",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "undici": "8.10.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.58.2",
+    "vite": "^8.0.10",
+    "wrangler": "4.92.0"
+  },
+  "overrides": {
+    "@emnapi/core": "1.11.2",
+    "@emnapi/runtime": "1.11.2",
+    "@emnapi/wasi-threads": "1.2.2"
+  }
+}

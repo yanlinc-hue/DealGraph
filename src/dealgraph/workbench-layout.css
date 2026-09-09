@@ -1,0 +1,10 @@
+/* Loaded after the retained graph styles and workbench layout. */
+.bw-task .bw-task-actions input{width:144px;height:auto;min-height:42px;font-size:14px;accent-color:auto}
+.bw-app .bw-header .bw-button{min-height:44px;font-size:14px}
+.bw-app .bw-task strong{font-size:16px}
+.bw-app .bw-task small{font-size:14px}
+.bw-app .bw-main .bw-panel{min-width:0}
+.bw-app .bw-panel h2,.bw-app .bw-section-heading,.bw-app .bw-pill{overflow-wrap:anywhere}
+.bw-app .rw-canvas-toolbar{height:auto;min-height:70px;flex-wrap:wrap}
+.bw-app .rw-graph-top{height:auto;flex-wrap:wrap}
+@media(max-width:700px){.bw-app .bw-main{padding-bottom:110px}.bw-app .bw-header{padding:14px 18px}.bw-app .bw-task{flex-wrap:wrap}.bw-app .bw-task label{flex-basis:100%}.bw-app .bw-task-actions{padding-left:32px}.bw-app .bw-dialog .bw-button{min-height:46px}.bw-app .rw-header-right>.rw-button{height:auto;min-height:44px;font-size:14px}.bw-app .rw-filter-tabs button{font-size:14px;min-height:44px}.bw-app .rw-network-toggle button{font-size:14px}.bw-app .rw-detail-footer{font-size:14px}.bw-app .rw-detail-footer>span{font-size:12px}}
