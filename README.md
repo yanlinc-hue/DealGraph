@@ -62,13 +62,19 @@ npm run build
 
 浏览器使用 AES-256-GCM 与 PBKDF2-SHA256 加密，包含资料集、分析文本、关系快照、记录和待办，不含 API 密钥、密码或上传授权。密码丢失无法找回。文件加密不保护已解锁页面、恶意插件或被控制的设备，不代表经过独立密码学审计。
 
-## 中文演示与虚构示例
+## 客户操作演示
 
 [![中文字幕演示](public/demo/dealgraph-demo-zh-poster.jpg)](public/demo/dealgraph-demo-zh.mp4)
 
-[103 秒演示视频](public/demo/dealgraph-demo-zh.mp4) · [中文字幕](public/demo/dealgraph-demo-zh.srt) · [73 条虚构聊天](public/examples/wechat-noisy.synthetic.json) · [加密工作台示例](public/examples/demo-workbench.dgvault)
+[观看完整使用流程](public/demo/dealgraph-demo-zh.mp4) · [下载中文字幕](public/demo/dealgraph-demo-zh.srt)
 
-示例文件的公开密码是 `Demo2026!Graph`，**仅用于全虚构数据，绝不能用于客户资料**。示例工作台用「打开文件」，聊天 JSON 用「导入聊天」。复现实测时把截止日期设为 2026-09-09，保留完整否定和更正上下文。视频压缩了人工核对过程，不代表全自动一次完成。
+从导入聊天、连接大模型和确认名单，到 2D / 3D 关系筛选、客户项目跟进、加密保存与恢复。字幕按实际操作顺序指引，等待与重复确认环节已剪辑。
+
+## 示例文件
+
+[聊天格式示例](public/examples/wechat-noisy.synthetic.json) · [加密工作台示例](public/examples/demo-workbench.dgvault)
+
+示例文件的公开密码是 `Demo2026!Graph`，**仅用于全虚构数据，绝不能用于客户资料**。示例工作台用「打开文件」，聊天 JSON 用「导入聊天」。复现实测时把截止日期设为 2026-09-09，保留完整否定和更正上下文。
 
 ## 部署自己的站点
 
