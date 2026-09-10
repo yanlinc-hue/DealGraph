@@ -64,9 +64,9 @@ npm run build
 
 ## 客户操作演示
 
-[![中文字幕演示](public/demo/dealgraph-demo-zh-poster.jpg)](public/demo/dealgraph-demo-zh.mp4)
+https://github.com/user-attachments/assets/6cedf749-e91e-4628-bb31-83178451a7a6
 
-[观看完整使用流程](public/demo/dealgraph-demo-zh.mp4) · [下载中文字幕](public/demo/dealgraph-demo-zh.srt)
+[下载完整视频](public/demo/dealgraph-demo-zh.mp4) · [下载中文字幕](public/demo/dealgraph-demo-zh.srt)
 
 从导入聊天、连接大模型和确认名单，到 2D / 3D 关系筛选、客户项目跟进、加密保存与恢复。字幕按实际操作顺序指引，等待与重复确认环节已剪辑。
 
