@@ -2,14 +2,6 @@
 
 精品投行的个人客户与项目工作台：把零散商业沟通整理成可用的关系图，知道该找谁、涉及哪个项目、下一步做什么。
 
-## 客户操作演示
-
-[![中文字幕演示](public/demo/dealgraph-demo-zh-poster.jpg)](public/demo/dealgraph-demo-zh.mp4)
-
-[观看完整使用流程](public/demo/dealgraph-demo-zh.mp4) · [下载中文字幕](public/demo/dealgraph-demo-zh.srt)
-
-从导入聊天、连接大模型和确认名单，到 2D / 3D 关系筛选、客户项目跟进、加密保存与恢复。字幕按实际操作顺序指引，等待与重复确认环节已剪辑。
-
 **商业关系优先，不把聊天频率当成人脉价值。** 适用于融资顾问、并购顾问、客户覆盖与项目跟进；不是自动尽调结论、自动交易判断或团队云端 CRM。
 
 [上传说明](docs/UPLOAD.zh-CN.md) · [部署说明](docs/DEPLOY.zh-CN.md) · [测试与边界](docs/TESTING.zh-CN.md)
@@ -69,6 +61,14 @@ npm run build
 工作台不是自动保存。修改后点击「加密保存」，设置 **12–256 字符**密码，下载 `.dgvault` 并确认找到文件；刷新或关闭会丢失未保存内容。下次用「打开文件」解密并确认恢复。
 
 浏览器使用 AES-256-GCM 与 PBKDF2-SHA256 加密，包含资料集、分析文本、关系快照、记录和待办，不含 API 密钥、密码或上传授权。密码丢失无法找回。文件加密不保护已解锁页面、恶意插件或被控制的设备，不代表经过独立密码学审计。
+
+## 客户操作演示
+
+[![中文字幕演示](public/demo/dealgraph-demo-zh-poster.jpg)](public/demo/dealgraph-demo-zh.mp4)
+
+[观看完整使用流程](public/demo/dealgraph-demo-zh.mp4) · [下载中文字幕](public/demo/dealgraph-demo-zh.srt)
+
+从导入聊天、连接大模型和确认名单，到 2D / 3D 关系筛选、客户项目跟进、加密保存与恢复。字幕按实际操作顺序指引，等待与重复确认环节已剪辑。
 
 ## 示例文件
 
